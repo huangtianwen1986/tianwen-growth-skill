@@ -1,0 +1,4 @@
+interface:
+  display_name: "天文增长诊断"
+  short_description: "结合业务证据分析增长瓶颈，核对指标口径，设计可执行、可复盘的增长实验"
+  default_prompt: "请用 $growth-diagnosis 分析我的业务增长问题，区分事实与假设，并设计下一步实验。"

@@ -1,0 +1,30 @@
+name: 使用反馈或反例
+description: 用可公开的业务问题改进增长诊断
+body:
+  - type: markdown
+    attributes:
+      value: 请去掉客户姓名、电话、账号和内部经营资料；没有授权的原始数据请勿上传。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你希望解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 提供了哪些可公开的证据与条件？
+  - type: textarea
+    id: result
+    attributes:
+      label: 哪一步判断或建议不合适？
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你希望怎样改进，怎样验证？
+  - type: input
+    id: environment
+    attributes:
+      label: Skill版本与客户端
